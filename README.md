@@ -23,29 +23,29 @@ The resulting duration matrix has the following structure:
   <tr>
     <th>Starting location</th>
     <th>Goal location</th> 
-    <th>t0</th>
+    <th>t<sub>0</sub></th>
     <th>...</th>
-    <th>tM</th>
+    <th>t<sub>M</sub></th>
   </tr>
   <tr>
-    <td>Start_0</td>
-    <td>Goal_0</td>
-    <td>duration00</td>
+    <td>start<sub>0</sub></td>
+    <td>goal<sub>0</sub></td>
+    <td>duration<sub>0,0</sub></td>
     <td>...</td>
-    <td>duration0M</td>
+    <td>duration<sub>0,M</sub></td>
   </tr>
   <tr>
-    <td>Start_N</td>
-    <td>Goal_N</td>
-    <td>durationN0</td>
+    <td>start<sub>N</sub></td>
+    <td>goal<sub>N</sub></td>
+    <td>duration<sub>N,0</sub></td>
     <td>...</td>
-    <td>durationNM</td>
+    <td>duration<sub>N,M</sub></td>
   </tr>
 </table>
 
 Whith the following notations:
-- (Start<sub>0</sub>, ..., Start_N) are the starting locations of the edges;
-- (Goal_0, ..., Goal_N) are the goal locations of the edges;
-- (t0, ..., tM) are the time steps of departure time (s);
-- (durationij) are the computed durations.
+- (start<sub>0</sub>, ..., start<sub>N</sub>) are the starting locations of the edges;
+- (goal<sub>0</sub>, ..., goal<sub>N</sub>) are the goal locations of the edges;
+- (t<sub>0</sub>, ..., t<sub>M</sub>) are the time steps of departure time (s);
+- (duration<sub>i,j</sub>) are the computed durations.
 
