@@ -5,15 +5,15 @@ The API is provided <a href="https://developers.google.com/maps/documentation/di
 
 # Use
 
-There are two ways of using the script, each corresponding to a mode set in the parameters file.
+There are two ways of using the script, each corresponding to a mode set in the parameters file 'parameters.py'.
 
-1. By creating a complete duration matrix. (mode = 0)\n
+1. By creating a complete duration matrix. (mode = 0)<br>
 In this case, you should provide the structure of the graph with the 'graph_structure.csv' provided as an example. The output will be the resulting duration matrix, saved at the location set in the parameters.
 
-2. By filling a duration matrix. (mode = 1)\n
+2. By filling a duration matrix. (mode = 1)<br>
 In this case, you should provide the path to the uncomplete duration matrix in the parameters file. The output will be the completed duration matrix, saved at the location set in the parameters.
 
-In each cases, other parameters such as the considered period of time and the time step width are set into the parameters file called 'parameters.py'.
+In each cases, other parameters such as the considered period of time and the time step width are set into the parameters file.
 
 # Duration matrix
 
@@ -44,8 +44,8 @@ The resulting duration matrix has the following structure:
 </table>
 
 Whith the following notations:
-- ($start_0$, ..., Start_N) are the starting locations of the edges;
-- (Goal_0, ..., Goal_N) are the goal locations of the edges;
+- <img src="https://latex.codecogs.com/gif.latex?(start_0, \cdots, start_N)" /> are the starting locations of the edges;
+- <img src="https://latex.codecogs.com/gif.latex?(goal_0, \cdots, goal_N)" /> are the goal locations of the edges;
 - (t0, ..., tM) are the time steps of departure time (s);
 - (durationij) are the computed durations.
 
