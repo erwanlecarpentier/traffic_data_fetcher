@@ -44,8 +44,8 @@ The resulting duration matrix has the following structure:
 </table>
 
 Whith the following notations:
-- <img src="https://latex.codecogs.com/gif.latex?(start_0, \cdots, start_N)" /> are the starting locations of the edges;
-- <img src="https://latex.codecogs.com/gif.latex?(goal_0, \cdots, goal_N)" /> are the goal locations of the edges;
+- (Start<sub>0</sub>, ..., Start_N) are the starting locations of the edges;
+- (Goal_0, ..., Goal_N) are the goal locations of the edges;
 - (t0, ..., tM) are the time steps of departure time (s);
 - (durationij) are the computed durations.
 
