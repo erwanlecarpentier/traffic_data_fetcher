@@ -43,8 +43,16 @@ def build_matrix(edges):
 	for i in range(nrow):
 		matrix.append([edges[i][0]] + [edges[i][1]] + [0] * ncol)
 	# Fill the matrix
+	fill_matrix(matrix,nrow,ncol)
+	return matrix
+
+def fill_matrix(matrix, nrow, ncol):
+	nrow = len(matrix[:]) - 1
+	ncol = len(matrix[0][:]) - 2
+	# Fill the matrix
 	for i in range(1,nrow+1):
 		for j in range(2,ncol+2):
-			matrix[i][j] = get_duration_time(matrix[i][0],matrix[i][1],matrix[0][j])
+			if (int(matrix[i][j]) == 0):
+				matrix[i][j] = get_duration_time(matrix[i][0],matrix[i][1],matrix[0][j])
 	return matrix
 

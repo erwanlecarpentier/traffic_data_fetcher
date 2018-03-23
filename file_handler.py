@@ -3,7 +3,7 @@ import csv
 def parse_csv(path):
 	output = []
 	with open(path, 'r') as csvfile:
-		reader = csv.reader(csvfile, delimiter=';', quotechar='|', quoting=csv.QUOTE_NONE, skipinitialspace=True)
+		reader = csv.reader(csvfile, delimiter=';', skipinitialspace=True)
 		for row in reader:
 			output.append(row)
 	return output
