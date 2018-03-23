@@ -20,8 +20,7 @@ api_key = 'AIzaSyDfTOPXexuM2Nq_gi_23tDZGd2CfrgxXPs'
 website = 'https://maps.googleapis.com/maps/api/distancematrix/json'
 
 # File names
-graph_structure_path = 'example/test.csv'
-#graph_structure_path = 'example/graph_structure.csv' # for mode 0
+graph_structure_path = 'example/graph_structure.csv' # for mode 0
 resulting_matrix_path = 'data/duration_matrix.csv' # for mode 0 and 1
 uncomplete_matrix_path = 'data/duration_matrix.csv' # for mode 1
 

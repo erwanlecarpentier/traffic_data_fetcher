@@ -35,6 +35,13 @@ The resulting duration matrix has the following structure:
     <td>duration<sub>0,M</sub></td>
   </tr>
   <tr>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+  </tr>
+  <tr>
     <td>start<sub>N</sub></td>
     <td>goal<sub>N</sub></td>
     <td>duration<sub>N,0</sub></td>
